@@ -1,7 +1,7 @@
 {
-  "name": "art-template",
+  "name": "arttemplate-gg",
   "description": "JavaScript Template Engine",
-  "homepage": "http://aui.github.com/artTemplate/",
+  "homepage": "https://github.com/vipstone/artTemplate-gg",
   "keywords": [
     "util",
     "functional",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aui/artTemplate.git"
+    "url": "git://github.com/vipstone/artTemplate-gg"
   },
   "main": "./node/template.js",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "devDependencies": {
     "express": "~4.4.3",
     "grunt-cli": "*",
@@ -27,9 +27,9 @@
   },
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/aui/artTemplate/issues"
+    "url": "https://github.com/vipstone/artTemplate-gg/issues"
   },
-  "_id": "art-template@3.0.3",
+  "_id": "art-template@3.0.4",
   "dist": {
     "shasum": "544b2be25f95d661984db4ee53ac316e57fbae14",
     "size": 18024,
@@ -39,13 +39,13 @@
   "_from": "art-template@*",
   "_npmVersion": "1.3.11",
   "_npmUser": {
-    "name": "aui",
-    "email": "1987.tangbin@gmail.com"
+    "name": "stone",
+    "email": "295628068@qq.com"
   },
   "maintainers": [
     {
-      "name": "aui",
-      "email": "1987.tangbin@gmail.com"
+      "name": "stone",
+      "email": "295628068@qq.com"
     }
   ],
   "directories": {},

@@ -216,7 +216,7 @@ encoding | String | ``'utf-8'`` | 指定模板编码
 
 ###	v3.0.4
 
-1. 添加了include shtml页面，实现服务器动态加载功能。（非官方）
+1. 添加了include 支持加载html/shtml页面，实现服务器动态加载功能。（非官方）
 
 ###	v3.0.3
 

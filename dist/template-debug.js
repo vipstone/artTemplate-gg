@@ -71,7 +71,7 @@ template.render = function (source, options) {
  * @return  {String}    渲染好的字符串
  */
 var renderFile = template.renderFile = function (filename, data) {
-    if(filename && filename.indexOf('shtml')>0)
+    if(filename && filename.indexOf('html')>0)
     {
         var fs = require("fs");
         return fs.readFileSync(filename, 'utf-8');

@@ -1,4 +1,4 @@
-# artTemplate-3.0
+# artTemplate-gg-3.0.3.1
 
 新一代 javascript 模板引擎
 
@@ -213,6 +213,10 @@ encoding | String | ``'utf-8'`` | 指定模板编码
 4. ``template()``方法直接传入的模板改用``template.compile()``（v2初期版本）
 
 ## 更新日志
+
+###	v3.0.3.1
+
+1. 添加了include shtml页面，实现服务器动态加载功能。（非官方）
 
 ###	v3.0.3
 

@@ -1,4 +1,4 @@
-# artTemplate-gg-3.0.4
+# artTemplate-gg-3.0.6
 
 新一代 javascript 模板引擎
 
@@ -214,7 +214,7 @@ encoding | String | ``'utf-8'`` | 指定模板编码
 
 ## 更新日志
 
-###	v3.0.4
+###	v3.0.6
 
 1. 添加了include 支持加载html/shtml页面，实现服务器动态加载功能。（非官方）
 

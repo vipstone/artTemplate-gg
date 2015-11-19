@@ -152,7 +152,7 @@ template('tpl/home/main', data)
 
 ###	安装
 
-	npm install art-template
+	npm install arttemplate-gg
 	
 ###	使用
 
@@ -250,7 +250,7 @@ encoding | String | ``'utf-8'`` | 指定模板编码
 ###	v2.0.3
 
 1.	优化辅助方法性能
-2.	NodeJS 用户可以通过 npm 获取 artTemplate：``$ npm install art-template -g``
+2.	NodeJS 用户可以通过 npm 获取 artTemplate：``$ npm install arttemplate-gg -g``
 3.	不转义输出语句推荐使用``<%=#value%>``（兼容 v2.0.3 版本之前使用的``<%==value%>``），而简版语法则可以使用``{{#value}}``
 4.	提供简版语法的合并版本 dist/[template-simple.js](https://raw.github.com/aui/artTemplate/master/dist/template-simple.js)
 

@@ -79,8 +79,9 @@
     };
 
     var loadFile = template.loadFile = function (filename, data) {
-        var fs = require("fs");
-        return fs.readFileSync(filename, 'utf-8');
+       var fs = require("fs");
+        var vpath = data.settings.views;
+        return fs.readFileSync(vpath.substring(0, vpath.lastIndexOf('\\') + 1) + filename, 'utf-8');
     }
 
     /**

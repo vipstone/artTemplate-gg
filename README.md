@@ -1,4 +1,4 @@
-# artTemplate-gg-3.0.8
+# artTemplate-gg-3.0.9
 
 新一代 javascript 模板引擎
 
@@ -214,7 +214,7 @@ encoding | String | ``'utf-8'`` | 指定模板编码
 
 ## 更新日志
 
-###	v3.0.8
+###	v3.0.9
 
 1. 添加{{includeFile "/public/top.html"}}加载页面
 

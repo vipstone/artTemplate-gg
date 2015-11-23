@@ -79,9 +79,14 @@
     };
 
     var loadFile = template.loadFile = function (filename, data) {
-       var fs = require("fs");
+        var fs = require("fs");
         var vpath = data.settings.views;
-        return fs.readFileSync(vpath.substring(0, vpath.lastIndexOf('\\') + 1) + filename, 'utf-8');
+        if (vpath.toLocaleString().indexOf('views')) {
+            return fs.readFileSync(vpath.substring(0, vpath.lastIndexOf('views')) + filename, 'utf-8');
+        }
+        else {
+            return fs.readFileSync(filename, 'utf-8');
+        }
     }
 
     /**
@@ -355,7 +360,7 @@
 // 字符串转义
     function stringify(code) {
         return "'" + code
-                // 单引号与反斜杠转义
+            // 单引号与反斜杠转义
                 .replace(/('|\\)/g, '\\$1')
                 // 换行符转义(windows + linux)
                 .replace(/\r/g, '\\r')

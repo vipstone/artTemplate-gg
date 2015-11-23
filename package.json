@@ -16,7 +16,7 @@
     "url": "git://github.com/vipstone/artTemplate-gg"
   },
   "main": "./node/template.js",
-  "version": "3.0.9",
+  "version": "3.0.9",
   "devDependencies": {
     "express": "~4.4.3",
     "grunt-cli": "*",
@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/vipstone/artTemplate-gg/issues"
   },
-  "_id": "art-template@3.0.9",
+  "_id": "arttemplate-gg@3.0.9",
   "dist": {
     "shasum": "544b2be25f95d661984db4ee53ac316e57fbae14",
     "size": 18024,

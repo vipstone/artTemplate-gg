@@ -82,7 +82,7 @@
         var fs = require("fs");
         var vpath = data.settings.views;
         if (vpath.toLocaleString().indexOf('views')) {
-            return fs.readFileSync(vpath.substring(0, vpath.lastIndexOf('views')) + filename, 'utf-8');
+            return fs.readFileSync((vpath.substring(0, vpath.lastIndexOf('views')-1) + filename), 'utf-8');
         }
         else {
             return fs.readFileSync(filename, 'utf-8');
